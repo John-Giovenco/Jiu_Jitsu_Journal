@@ -15,7 +15,7 @@ function NewMoveForm() {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    await fetch(`http://localhost:500/moves`, {
+    await fetch(`http://localhost:3001/moves`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
