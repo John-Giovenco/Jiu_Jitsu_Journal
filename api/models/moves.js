@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const Move = require("./move");
+const Move = require("./moves");
 
 const MoveSchema = new Schema({
   Name: {
@@ -27,8 +27,9 @@ const MoveSchema = new Schema({
     ],
   },
   Submission: {
-    type: Boolean,
-    default: true,
+    type: String,
+    required: true,
+    enum: ["Submission", "Escape", "Other"],
   },
   Description: {
     type: String,
