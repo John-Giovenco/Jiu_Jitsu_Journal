@@ -7,7 +7,8 @@ import NewMoveForm from "./moves/NewMoveForm";
 import EditMoveForm from "./moves/EditMoveForm";
 import SignUpForm from "./users/SignUpForm";
 import LoginForm from "./users/LoginForm";
-import CurrentUserProvider from "./contexts/CurrentUser";
+import CurrentUserProvider from "./contexts/CurrentUserProvider";
+import Navigation from "./Navigation";
 
 function App() {
   return (

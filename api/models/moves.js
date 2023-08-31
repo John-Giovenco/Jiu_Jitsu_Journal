@@ -26,7 +26,7 @@ const MoveSchema = new Schema({
       "Turtle",
     ],
   },
-  Submission: {
+  Type: {
     type: String,
     required: true,
     enum: ["Submission", "Escape", "Other"],

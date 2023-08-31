@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router";
 import DescriptionCard from "./DescriptionCard";
-import NewDescriptionForm from "./NewDescriptionForm.js";
+import NewDescriptionForm from "./NewDescriptionForm.jsx";
 
 function MoveDescription() {
   const { moveId } = useParams();

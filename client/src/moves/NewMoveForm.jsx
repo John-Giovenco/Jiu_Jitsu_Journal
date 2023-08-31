@@ -8,7 +8,7 @@ function NewMoveForm() {
     name: "",
     style: "",
     position: "",
-    submission: "",
+    type: "",
     description: "",
   });
 
